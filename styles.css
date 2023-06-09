@@ -1,0 +1,81 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item{
+    background: #4e42d4;
+    font-size: 30px;
+    margin: .5em auto;
+}
+
+#btn{
+    border-radius: 8px;
+    font-size: 20px;
+   
+    color: #999;
+    background: none;
+    border: none;
+    
+}
+#btn:hover{
+    transition: .5s ease;
+    color: white;
+    background:#4e42d4;
+   
+}
+.descripcion{
+    color:#444;
+    text-align: center;
+}
+#listaTarea{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1em;
+    
+}
+#listaTarea li a{
+    text-align: center;
+    color: white;
+
+}
+
+.container{
+    border: 1px solid #4e42d4;
+
+}
+header{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    justify-content: space-between;
+    background:#4e42d4;
+    border: 1px solid #333;
+    height: 100px;
+    color: #eee;
+    
+}
+#logo{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+header ul i{
+    font-size: 30px;
+    margin: 10px; 
+    
+
+}
+
+main h1{
+    font-size: 4.5em;
+    text-align: center;
+    color: #4e42d4;
+    line-height: 1;
+    font-weight: 900;
+    
+}
+i:hover{
+    transition: .3s ease;
+    color: #ff3859;
+}
